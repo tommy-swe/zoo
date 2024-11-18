@@ -15,6 +15,7 @@ export class DogController {
   public introduce(@Param('id') id: string, @Query() query: any): string {
     console.log('id ==> ', id);
     console.log('query ==>', query);
+    
     // public introduce(@Req() request: Request, @Res() response: Response)
     // console.log('params ==>', request.params);
     // console.log('query ==>', request.query);
